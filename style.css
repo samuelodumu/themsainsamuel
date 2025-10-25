@@ -24,7 +24,7 @@ body {
     
   @media (max-width: 768px) {
     .resume-section {
-    padding: 4rem 1rem;
+    padding: 2rem .5rem;
     }
   }
 
