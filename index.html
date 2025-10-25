@@ -25,39 +25,38 @@
                         <p class="bio text-dark" data-testid="test-user-bio" aria-label="Short profile biography and personal description">Hi! I'm Samuel the frontend guy, I really like making stunning visuals and hope to get better at it with each new project I build. When I'm not working I like watching a good movie, reading a book, or playing chess. </p>
                         <button data-bs-toggle="modal" data-bs-target="#resumeModal" target="_blank" class="btn btn-success btn-animate">View/download Resume</i></button>
                     </header>
-                
-                <!-- Modal Structure -->
+                </div>
+                    <!-- Modal Structure -->
                 <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel">
                 <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content shadow-lg border-0">
 
-                    <!-- Modal Header -->
-                <div class="modal-header bg-secondary text-white d-flex justify-content-between align-items-center">
-                    <div class="d-flex align-items-center gap-2">
-                        <i class="bi bi-file-earmark-person-fill fs-4"></i>
-                        <h5 class="modal-title mb-0" id="resumeModalLabel">My Resume</h5>
+                        <!-- Modal Header -->
+                    <div class="modal-header bg-secondary text-white d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-file-earmark-person-fill fs-4"></i>
+                            <h5 class="modal-title mb-0" id="resumeModalLabel">My Resume</h5>
+                        </div>
+
+                        <!-- Download Link (inside modal header) -->
+                        <div>
+                            <a href="assets/Samuel_Odumu_Resume.pdf" 
+                                download="Samuel_Odumu_Resume.pdf" 
+                                class="btn btn-light btn-sm d-flex align-items-center gap-1">
+                                <i class="bi bi-download"></i>
+                                <span>Download</span>
+                            </a>
+                        </div>
+                        <button type="button" class="btn-close btn-close-white ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
 
-                    <!-- Download Link (inside modal header) -->
-                    <div>
-                        <a href="assets/Samuel_Odumu_Resume.pdf" 
-                            download="Samuel_Odumu_Resume.pdf" 
-                            class="btn btn-light btn-sm d-flex align-items-center gap-1">
-                            <i class="bi bi-download"></i>
-                            <span>Download</span>
-                        </a>
-                    </div>
-                    <button type="button" class="btn-close btn-close-white ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                    <!-- Modal Body -->
-                    <div class="modal-body p-0">
-                        <iframe src="assets/Samuel_Odumu_Resume.pdf" class="resume-frame"></iframe>
+                        <!-- Modal Body -->
+                        <div class="modal-body p-0">
+                            <iframe src="assets/Samuel_Odumu_Resume.pdf" class="resume-frame"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
 
             <div class="socials bg-light rounded-2 mt-2 p-3 d-flex justify-content-center">
                 <nav data-testid="test-user-social-links" class="links text-decoration-none d-flex gap-4 list-unstyled mb-0 text-dark-subtle">
