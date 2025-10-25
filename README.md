@@ -1,5 +1,6 @@
 # Samuel Odumu - Personal Website
 
+## 🔗Live link - [themainsamuel.netlify.app](https://themainsamuel.netlify.app/)
 A responsive personal profile website showcasing Samuel Odumu's professional information, skills, and social media presence.
 
 ## 🌟 Features
